@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-console.log("Online Spam");
+console.log("Spam Is Online");
 
 
 client.on("ready", () => {
