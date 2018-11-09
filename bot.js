@@ -1,0 +1,27 @@
+const Discord = require('discord.js');
+
+const client = new Discord.Client();
+console.log("Scrpit By King_Power");
+
+
+client.on("ready", () => {
+let channel =     client.channels.get("510536562153488394")
+setInterval(function() {
+channel.send(` Venom 5k Members  :heart: .
+ Venom 5k Members  :heart: .
+ Venom 5k Members  :heart: .
+ Venom 5k Members  :heart: .
+ Venom 5k Members  :heart: .Venom 5k Members  :heart: .
+ Venom 5k Members  :heart: .
+ Venom 5k Members  :heart: .
+ Venom 5k Members  :heart: .
+ Venom 5k Members  :heart: .Venom 5k Members  :heart: .
+ Venom 5k Members  :heart: .
+ Venom 5k Members  :heart: .
+ Venom 5k Members  :heart: .
+ Venom 5k Members  :heart: .`);
+}, 25)
+})
+ 
+ 
+client.login(process.env.BOT_TOKEN);
