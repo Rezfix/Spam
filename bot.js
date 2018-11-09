@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
-
 const client = new Discord.Client();
+
 clinet.on('ready', () => {
     clinet.user.setGame('i Love iR26RR','https://www.twitch.tv/Rezfix');
     console.log('---------------');
